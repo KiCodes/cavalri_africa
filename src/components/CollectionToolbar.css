@@ -1,0 +1,126 @@
+.CollectionToolbar {
+  position: sticky;
+  top: var(--header-height, 68px);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: var(--color-bg);
+  box-shadow: 1px 1px var(--color-border), -1px -1px var(--color-border);
+  z-index: 2;
+}
+
+.CollectionToolbar__Group {
+  display: flex;
+  flex: 1 0 auto;
+  position: relative;
+}
+
+.CollectionToolbar__Item {
+  flex: 1 0 auto;
+  padding: 13px 0;
+  border-left: 1px solid var(--color-border);
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.CollectionToolbar__Item--sort .Icon--select-arrow {
+  height: 6px;
+  margin-left: 2px;
+}
+
+.CollectionToolbar__Item--layout {
+  flex: none;
+  width: 95px;
+  line-height: 1;
+  cursor: default;
+  border-left: none;
+  border-right: 1px solid var(--color-border);
+}
+
+.CollectionToolbar__LayoutSwitch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.CollectionToolbar__LayoutSwitch--desktop {
+  display: none;
+}
+
+@media screen and (min-width: 1008px) {
+  .CollectionToolbar__LayoutSwitch--mobile {
+    display: none;
+  }
+
+  .CollectionToolbar__LayoutSwitch--desktop {
+    display: flex;
+  }
+}
+
+.CollectionToolbar__LayoutType {
+  margin: 0 6px;
+  opacity: 0.2;
+  transition: opacity 0.25s ease-in-out;
+  display: inline-flex;
+}
+
+.CollectionToolbar__LayoutType svg {
+  width: 18px;
+  height: 18px;
+}
+
+.CollectionToolbar__LayoutType.is-active {
+  opacity: 1;
+}
+
+@media screen and (min-width: 1008px) {
+  .CollectionToolbar__Group {
+    flex: none;
+  }
+
+  .CollectionToolbar__Item {
+    padding: 18px 0;
+  }
+
+  .CollectionToolbar__Group .CollectionToolbar__Item {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .CollectionToolbar__Item--layout {
+    width: 115px;
+    white-space: nowrap;
+  }
+}
+
+.CollectionToolbar__SortMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 220px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 5;
+  padding: 8px 0;
+}
+
+.CollectionToolbar__SortMenu li button {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  text-align: left;
+  color: var(--color-text);
+}
+
+.CollectionToolbar__SortMenu li button:hover,
+.CollectionToolbar__SortMenu li button.is-selected {
+  color: var(--color-accent);
+}

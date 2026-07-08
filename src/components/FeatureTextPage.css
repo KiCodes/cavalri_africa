@@ -1,0 +1,78 @@
+.FeatureText {
+  text-align: center;
+}
+
+.FeatureText__ContentWrapper {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.FeatureText__ImageWrapper {
+  overflow: hidden;
+}
+
+.FeatureText--withImage .FeatureText__ContentWrapper {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.FeatureText .SectionHeader__Description {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.FeatureText__ImageWrapper .AspectRatio {
+  aspect-ratio: 2 / 3;
+}
+
+.FeatureText__ImageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 640px) {
+  .FeatureText--imageLeft {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (min-width: 641px) {
+  .FeatureText__Content {
+    max-width: 430px;
+    margin: 0 auto;
+  }
+
+  .FeatureText--withImage {
+    display: table;
+    width: 100%;
+    text-align: left;
+    table-layout: fixed;
+  }
+
+  .FeatureText--withImage .FeatureText__ContentWrapper,
+  .FeatureText--withImage .FeatureText__ImageWrapper {
+    display: table-cell;
+    width: 50%;
+    vertical-align: middle;
+  }
+
+  .FeatureText--withImage .FeatureText__ContentWrapper {
+    padding: 50px;
+  }
+
+  .FeatureText--imageLeft .FeatureText__ContentWrapper {
+    padding-left: 40px;
+  }
+
+  .FeatureText--imageLeft .FeatureText__Content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .FeatureText--imageLeft .FeatureText__ContentWrapper {
+    padding-left: 100px;
+  }
+}

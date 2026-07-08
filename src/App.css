@@ -1,0 +1,12 @@
+.PageHeader {
+  position: relative;
+  margin: 35px 0;
+}
+
+.SectionHeader--center {
+  text-align: center;
+}
+
+.CollectionMain {
+  padding-top: 40px;
+}

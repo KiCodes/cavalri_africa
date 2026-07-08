@@ -1,0 +1,113 @@
+.MobileDrawer__Overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 100;
+}
+
+@media screen and (min-width: 1008px) {
+  .MobileDrawer__Overlay {
+    display: none;
+  }
+}
+
+.MobileDrawer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 82%;
+  max-width: 380px;
+  background: var(--color-bg);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.MobileDrawer__Header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.MobileDrawer__Close {
+  display: inline-flex;
+}
+
+.MobileDrawer__Close svg {
+  width: 16px;
+  height: 14px;
+}
+
+.MobileDrawer__Nav {
+  border-top: 1px solid var(--color-border);
+}
+
+.MobileDrawer__NavItem {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.MobileDrawer__NavButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 18px 20px;
+  text-align: left;
+}
+
+.MobileDrawer__Toggle {
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 300;
+  transition: transform 0.2s ease-in-out;
+}
+
+.MobileDrawer__Toggle.is-open {
+  transform: rotate(45deg);
+}
+
+.MobileDrawer__Submenu {
+  padding: 0 20px 18px 20px;
+}
+
+.MobileDrawer__Submenu li {
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.MobileDrawer__SubmenuTitle {
+  color: var(--color-subdued);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 11px;
+  margin-top: 14px;
+}
+
+.MobileDrawer__SecondaryNav {
+  padding: 16px 20px;
+}
+
+.MobileDrawer__SecondaryNav li {
+  margin-bottom: 12px;
+  font-size: 13px;
+}
+
+.MobileDrawer__Footer {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-top: 1px solid var(--color-border);
+}
+
+.MobileDrawer__Social {
+  display: flex;
+  gap: 16px;
+}
+
+.MobileDrawer__Social svg {
+  width: 16px;
+  height: 16px;
+}

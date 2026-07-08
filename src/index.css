@@ -1,0 +1,251 @@
+:root {
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-subdued: #939393;
+  --color-border: #e5e5e5;
+  --color-accent: #d97637;
+  --header-height: 68px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: var(--color-text);
+  background: var(--color-bg);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.Heading {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--color-text);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  transition: color 0.2s ease-in-out;
+}
+
+.Text--subdued {
+  color: var(--color-subdued);
+}
+
+.Container {
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.u-h1 { font-size: 22px; }
+.u-h2 { font-size: 20px; }
+.u-h3 { font-size: 18px; }
+.u-h4 { font-size: 16px; }
+.u-h5 { font-size: 14px; }
+.u-h6 { font-size: 13px; }
+.u-h7, .u-h8 { font-size: 12px; }
+
+@media screen and (min-width: 641px) {
+  .u-h4 { font-size: 17px; }
+}
+
+.SectionHeader:not(:only-child) {
+  margin-bottom: 40px;
+}
+
+.SectionHeader__Description {
+  max-width: 530px;
+}
+
+.SectionHeader--center .SectionHeader__Description {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Rte p:not(:last-child) {
+  margin-bottom: 1.6em;
+}
+
+.Rte a {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.PageContent {
+  max-width: 1000px;
+  margin: 35px auto;
+}
+
+.PageContent--fitScreen {
+  display: flex;
+  min-height: calc(100vh - 160px);
+  align-items: center;
+  justify-content: center;
+}
+
+.PageContent--extraNarrow {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.Form {
+  width: 100%;
+}
+
+.Form__Header {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.Form__Title {
+  margin-bottom: 8px;
+}
+
+.Form__Legend {
+  margin: 0;
+  font-size: 13px;
+}
+
+.Form__Item {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.Form__Input {
+  -webkit-appearance: none;
+  appearance: none;
+  display: block;
+  padding: 12px 14px;
+  border-radius: 0;
+  border: 1px solid var(--color-border);
+  width: 100%;
+  line-height: normal;
+  resize: none;
+  background: transparent;
+  color: var(--color-text);
+  font-family: 'Poppins', sans-serif;
+  transition: border-color 0.1s ease-in-out;
+}
+
+.Form__Input:focus {
+  border-color: var(--color-accent);
+  outline: none;
+}
+
+.Form__Input::placeholder {
+  color: var(--color-subdued);
+}
+
+.Form__FloatingLabel {
+  position: absolute;
+  bottom: calc(100% - 8px);
+  left: 10px;
+  padding: 0 5px;
+  line-height: normal;
+  color: var(--color-subdued);
+  font-size: 11px;
+  opacity: 0;
+  background: transparent;
+  pointer-events: none;
+  transform: translateY(3px);
+  transition: all 0.3s ease-in-out;
+}
+
+.Form__Input:not(:placeholder-shown) ~ .Form__FloatingLabel {
+  opacity: 1;
+  background: var(--color-bg);
+  transform: translateY(0);
+}
+
+.Form__ItemHelp {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 11px;
+  color: var(--color-subdued);
+}
+
+.Form__Submit {
+  display: block;
+  margin-top: 20px;
+}
+
+.Form__Hint {
+  margin: 24px 0 0;
+}
+
+.Form__Hint--center {
+  text-align: center;
+}
+
+.Button {
+  position: relative;
+  display: inline-block;
+  padding: 14px 28px;
+  line-height: normal;
+  border: 1px solid transparent;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.Button--primary {
+  color: #fff;
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.Button--primary:hover {
+  background-color: #b95f28;
+}
+
+.Button--full {
+  width: 100%;
+}
+
+.Link--secondary {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
