@@ -1,0 +1,248 @@
+.Checkout {
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.Checkout__Logo {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 32px;
+}
+
+.Checkout__Layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 900px) {
+  .Checkout__Layout {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.Checkout__Form {
+  max-width: 460px;
+  width: 100%;
+}
+
+.Checkout__Section {
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.Checkout__Section h2 {
+  margin: 0 0 16px;
+}
+
+.Checkout__SectionLabel {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.Checkout__Divider {
+  position: relative;
+  text-align: center;
+  margin: 20px 0 4px;
+  border-top: 1px solid var(--color-border);
+}
+
+.Checkout__Divider span {
+  position: relative;
+  top: -10px;
+  padding: 0 12px;
+  background: var(--color-bg);
+  color: var(--color-subdued);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.Checkout__Row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.Checkout__Checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--color-subdued);
+}
+
+.Checkout__ShippingMethod {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px;
+  border: 1px solid var(--color-accent);
+  font-size: 13px;
+}
+
+.Checkout__PaymentOptions {
+  border: 1px solid var(--color-border);
+}
+
+.Checkout__PaymentOption {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px;
+  font-size: 13px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.Checkout__PaymentOption:last-child {
+  border-bottom: none;
+}
+
+.Checkout__PaymentOption.is-selected {
+  background: #f7f7f7;
+}
+
+.Checkout__PaymentNote {
+  padding: 14px;
+  border: 1px solid var(--color-border);
+  border-top: none;
+  font-size: 12px;
+}
+
+.Checkout__CardFields {
+  padding: 14px;
+  border: 1px solid var(--color-border);
+  border-top: none;
+}
+
+.Checkout__RadioRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border: 1px solid var(--color-border);
+  font-size: 13px;
+  margin-bottom: -1px;
+}
+
+.Checkout__Summary {
+  align-self: start;
+  padding: 24px;
+  background: #f7f6f4;
+}
+
+@media screen and (min-width: 900px) {
+  .Checkout__Summary {
+    position: sticky;
+    top: 24px;
+  }
+}
+
+.Checkout__SummaryItem {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.Checkout__SummaryImageWrap {
+  position: relative;
+  width: 56px;
+  flex-shrink: 0;
+}
+
+.Checkout__SummaryImage.AspectRatio {
+  width: 56px;
+  background: #eeeeee;
+  border: 1px solid var(--color-border);
+}
+
+.Checkout__SummaryQty {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--color-text);
+  color: #fff;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Checkout__SummaryInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.Checkout__SummaryInfo p {
+  margin: 0 0 4px;
+}
+
+.Checkout__GiftCard {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.Checkout__GiftCard .Form__Input {
+  background: var(--color-bg);
+}
+
+.Checkout__GiftCardApply {
+  padding: 0 18px;
+  border: 1px solid var(--color-border);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-subdued);
+}
+
+.Checkout__Totals {
+  padding-top: 16px;
+  border-top: 1px solid var(--color-border);
+}
+
+.Checkout__TotalsRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: var(--color-subdued);
+}
+
+.Checkout__TotalsRow--total {
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.Checkout__TaxNote {
+  margin: 0;
+}
+
+.Checkout--empty,
+.Checkout--confirmation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  gap: 12px;
+}
+
+.Checkout__ConfirmationCard {
+  max-width: 380px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}

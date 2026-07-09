@@ -249,3 +249,88 @@ img {
   color: var(--color-accent);
   text-decoration: underline;
 }
+
+.QuantitySelector {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--color-border);
+  width: fit-content;
+}
+
+.QuantitySelector__Button {
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.QuantitySelector__Value {
+  min-width: 32px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.QuantitySelector--small .QuantitySelector__Button {
+  width: 28px;
+  height: 28px;
+  font-size: 14px;
+}
+
+.QuantitySelector--small .QuantitySelector__Value {
+  min-width: 24px;
+  font-size: 12px;
+}
+
+.Button--sweep {
+  position: relative;
+  overflow: hidden;
+  color: var(--color-text);
+  background-color: transparent;
+  border-color: var(--color-border);
+  transition: color 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+.Button--sweep::before,
+.Button--sweep::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: var(--color-accent);
+  transition: clip-path 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+.Button--sweep::before {
+  clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+}
+
+.Button--sweep::after {
+  clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+}
+
+.Button__Label {
+  position: relative;
+  z-index: 1;
+}
+
+.Button--sweep:hover,
+.Button--sweep:focus-visible {
+  color: #fff;
+}
+
+.Button--sweep:hover::before,
+.Button--sweep:focus-visible::before {
+  clip-path: polygon(0 0, 54% 0, 46% 100%, 0 100%);
+}
+
+.Button--sweep:hover::after,
+.Button--sweep:focus-visible::after {
+  clip-path: polygon(54% 0, 100% 0, 100% 100%, 46% 100%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .Button--sweep,
+  .Button--sweep::before,
+  .Button--sweep::after {
+    transition: none;
+  }
+}

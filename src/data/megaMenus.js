@@ -1,3 +1,5 @@
+import { COLLABORATIONS } from './collaborations';
+
 export const NAV_HREFS = {
   Shop: '/',
   About: '/pages/our-story',
@@ -14,12 +16,12 @@ export const MEGA_MENUS = {
         titleHref: '/',
         links: [
           { label: 'All', href: '/' },
-          { label: 'Accessories', href: '#' },
-          { label: 'Bottoms', href: '#' },
-          { label: 'Headwear', href: '#' },
-          { label: 'Outerwear', href: '#' },
-          { label: 'T-Shirts', href: '#' },
-          { label: 'Tops', href: '#' },
+          { label: 'Accessories', href: '/collections/accessories' },
+          { label: 'Bottoms', href: '/collections/bottoms' },
+          { label: 'Headwear', href: '/collections/headwear' },
+          { label: 'Outerwear', href: '/collections/outerwear' },
+          { label: 'T-Shirts', href: '/collections/t-shirts' },
+          { label: 'Tops', href: '/collections/tops' },
         ],
       },
       { title: 'Cavalri Babes', links: [] },
@@ -57,12 +59,11 @@ export const MEGA_MENUS = {
     columns: [
       {
         title: 'Collaborations',
-        links: [
-          { label: 'Cavalri/Kasi Flavour10 Cross Sports Game 2024', href: '#' },
-          { label: 'Cavalri/Oroko Radio DJ Workshop', href: '#' },
-          { label: 'Cavalri/Unknwn Projcts "August Break" Capsule', href: '#' },
-          { label: 'Cavalri + Coke', href: '#' },
-        ],
+        titleHref: '/collaborations',
+        links: COLLABORATIONS.slice(0, 2).map((collab) => ({
+          label: collab.title,
+          href: `/collaborations/${collab.slug}`,
+        })),
       },
       {
         title: 'Editorial',

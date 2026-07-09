@@ -1,13 +1,15 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { MEGA_MENUS, NAV_HREFS } from '../data/megaMenus';
+import { useCart } from '../context/CartContext';
 import MobileDrawer from './MobileDrawer';
 import SearchOverlay from './SearchOverlay';
+import CartDrawer from './CartDrawer';
 import './Header.css';
 
 const NAV_LINKS = ['Shop', 'About', 'Collections', 'Skate', 'Journal'];
 
-function MegaMenu({ menu }) {
+function MegaMenu({ menu, onNavigate }) {
   return (
     <div className="MegaMenu">
       <div className="Container MegaMenu__Inner">
@@ -17,6 +19,7 @@ function MegaMenu({ menu }) {
               <Link
                 to={col.titleHref || '#'}
                 className="MegaMenu__Title Heading Text--subdued u-h7"
+                onClick={onNavigate}
               >
                 {col.title}
               </Link>
@@ -24,7 +27,7 @@ function MegaMenu({ menu }) {
                 <ul className="MegaMenu__Linklist">
                   {col.links.map((link) => (
                     <li key={link.label}>
-                      <Link to={link.href || '#'} className="MegaMenu__Link">
+                      <Link to={link.href || '#'} className="MegaMenu__Link" onClick={onNavigate}>
                         {link.label}
                       </Link>
                     </li>
@@ -35,7 +38,7 @@ function MegaMenu({ menu }) {
           ))}
         </div>
 
-        <Link to={menu.push.href || '#'} className="MegaMenu__Push">
+        <Link to={menu.push.href || '#'} className="MegaMenu__Push" onClick={onNavigate}>
           <div
             className="MegaMenu__PushImage"
             style={{ backgroundImage: `url(${menu.push.image})` }}
@@ -54,6 +57,7 @@ function Header() {
   const [openMenu, setOpenMenu] = useState(null);
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
+  const cart = useCart();
 
   return (
     <header className="Header" onMouseLeave={() => setOpenMenu(null)}>
@@ -131,14 +135,18 @@ function Header() {
                 </button>
               </li>
               <li className="HorizontalList__Item">
-                <a href="#" className="Heading u-h6">
-                  Cart (<span>0</span>)
-                </a>
+                <button type="button" className="Heading u-h6" onClick={cart.open}>
+                  Cart (<span>{cart.count}</span>)
+                </button>
               </li>
             </ul>
           </nav>
 
-          <button className="Header__Icon Header__CartToggle" aria-label="Open cart">
+          <button
+            className="Header__Icon Header__CartToggle"
+            aria-label="Open cart"
+            onClick={cart.open}
+          >
             <svg viewBox="0 0 17 20">
               <path
                 d="M0 20V4.995l1 .006v.015l4-.002V4c0-2.484 1.274-4 3.5-4C10.518 0 12 1.48 12 4v1.012l5-.003v.985H1V19h15V6.005h1V20H0zM11 4.49C11 2.267 10.507 1 8.5 1 6.5 1 6 2.27 6 4.49V5l5-.002V4.49z"
@@ -149,7 +157,9 @@ function Header() {
         </div>
       </div>
 
-      {openMenu && MEGA_MENUS[openMenu] && <MegaMenu menu={MEGA_MENUS[openMenu]} />}
+      {openMenu && MEGA_MENUS[openMenu] && (
+        <MegaMenu menu={MEGA_MENUS[openMenu]} onNavigate={() => setOpenMenu(null)} />
+      )}
 
       <MobileDrawer
         open={drawerOpen}
@@ -158,6 +168,8 @@ function Header() {
       />
 
       <SearchOverlay open={searchOpen} onClose={() => setSearchOpen(false)} />
+
+      <CartDrawer />
     </header>
   );
 }

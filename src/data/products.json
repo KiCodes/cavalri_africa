@@ -5,7 +5,8 @@
     "price": "₦67,700",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/Photoroom_20260529_171506_",
     "imageExt": ".png",
-    "v": "1780072790"
+    "v": "1780072790",
+    "category": "T-Shirts"
   },
   {
     "handle": "/collections/all/products/cross-sport-tee",
@@ -13,7 +14,8 @@
     "price": "₦67,700",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/Photoroom_20260529_170551_",
     "imageExt": ".png",
-    "v": "1780070864"
+    "v": "1780070864",
+    "category": "T-Shirts"
   },
   {
     "handle": "/collections/all/products/basketball-jersey",
@@ -21,7 +23,8 @@
     "price": "₦70,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/Photoroom_20260529_171816_",
     "imageExt": ".png",
-    "v": "1780073002"
+    "v": "1780073002",
+    "category": "Tops"
   },
   {
     "handle": "/collections/all/products/coke-knitwear",
@@ -29,7 +32,8 @@
     "price": "₦230,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/Photoroom_20260529_171432_",
     "imageExt": ".png",
-    "v": "1780071675"
+    "v": "1780071675",
+    "category": "Tops"
   },
   {
     "handle": "/collections/all/products/waf-guiness-uncle-shirt",
@@ -37,7 +41,8 @@
     "price": "₦101,700",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/uncleshirtdetails2_",
     "imageExt": ".png",
-    "v": "1744021369"
+    "v": "1744021369",
+    "category": "Tops"
   },
   {
     "handle": "/collections/all/products/waf-guiness-basic-skort",
@@ -45,7 +50,8 @@
     "price": "₦70,700",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/guinnessdetail6_170cde43-9fc2-426a-9d3c-10e51f3f1382_",
     "imageExt": ".png",
-    "v": "1744020151"
+    "v": "1744020151",
+    "category": "Bottoms"
   },
   {
     "handle": "/collections/all/products/waf-guiness-lagos-island-pant",
@@ -53,7 +59,8 @@
     "price": "₦93,700",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/guinnessbottoms_",
     "imageExt": ".png",
-    "v": "1744019894"
+    "v": "1744019894",
+    "category": "Bottoms"
   },
   {
     "handle": "/collections/all/products/waf-guiness-bucket-hat",
@@ -61,7 +68,8 @@
     "price": "₦50,700",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/guinnesshat_",
     "imageExt": ".png",
-    "v": "1744021673"
+    "v": "1744021673",
+    "category": "Headwear"
   },
   {
     "handle": "/collections/all/products/waf-orisa-fitted-hats",
@@ -69,7 +77,8 @@
     "price": "₦90,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/6_dfd25ddd-de56-45b1-8862-355ed1d4138b_",
     "imageExt": ".png",
-    "v": "1733405298"
+    "v": "1733405298",
+    "category": "Headwear"
   },
   {
     "handle": "/collections/all/products/waf-orisa-fitted-hats-1",
@@ -77,7 +86,8 @@
     "price": "₦90,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/3_97518507-baa6-4914-947d-54dbf217dbc2_",
     "imageExt": ".png",
-    "v": "1733405455"
+    "v": "1733405455",
+    "category": "Headwear"
   },
   {
     "handle": "/collections/all/products/block-work-ijebu-bucket-hat",
@@ -85,7 +95,8 @@
     "price": "₦50,700",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/blockworkshootfrontal2_",
     "imageExt": ".png",
-    "v": "1700144687"
+    "v": "1700144687",
+    "category": "Headwear"
   },
   {
     "handle": "/collections/all/products/waf-ade-bucket-hat-copy-1",
@@ -93,7 +104,8 @@
     "price": "₦70,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/11_dae67806-9bf9-4665-b951-fcb7c8d911fa_",
     "imageExt": ".png",
-    "v": "1744364835"
+    "v": "1744364835",
+    "category": "Headwear"
   },
   {
     "handle": "/collections/all/products/waf-ade-bucket-hat-copy",
@@ -101,7 +113,8 @@
     "price": "₦140,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/hat1_",
     "imageExt": ".png",
-    "v": "1733403371"
+    "v": "1733403371",
+    "category": "Headwear"
   },
   {
     "handle": "/collections/all/products/lagos-love-ringer-tee",
@@ -109,7 +122,8 @@
     "price": "₦67,700",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/Photoroom_20260529_173039_",
     "imageExt": ".png",
-    "v": "1780072363"
+    "v": "1780072363",
+    "category": "T-Shirts"
   },
   {
     "handle": "/collections/all/products/waf-apple-tee",
@@ -117,7 +131,8 @@
     "price": "₦55,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/appleblackback_",
     "imageExt": ".png",
-    "v": "1737981823"
+    "v": "1737981823",
+    "category": "T-Shirts"
   },
   {
     "handle": "/collections/all/products/waf-w-dad-hat-2",
@@ -125,7 +140,8 @@
     "price": "₦58,700",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/cap3_",
     "imageExt": ".png",
-    "v": "1733234436"
+    "v": "1733234436",
+    "category": "Headwear"
   },
   {
     "handle": "/collections/all/products/waf-w-dad-hat-copy-2",
@@ -133,7 +149,8 @@
     "price": "₦58,700",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/cap6_",
     "imageExt": ".png",
-    "v": "1733234967"
+    "v": "1733234967",
+    "category": "Headwear"
   },
   {
     "handle": "/collections/all/products/waf-w-dad-hat-copy-1",
@@ -141,7 +158,8 @@
     "price": "₦58,700",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/cap12_",
     "imageExt": ".png",
-    "v": "1733235157"
+    "v": "1733235157",
+    "category": "Headwear"
   },
   {
     "handle": "/collections/all/products/waf-w-dad-hat-1",
@@ -149,7 +167,8 @@
     "price": "₦58,700",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/cap14_",
     "imageExt": ".png",
-    "v": "1733234858"
+    "v": "1733234858",
+    "category": "Headwear"
   },
   {
     "handle": "/collections/all/products/waf-w-dad-hat",
@@ -157,7 +176,8 @@
     "price": "₦58,700",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/cap17_",
     "imageExt": ".png",
-    "v": "1733235342"
+    "v": "1733235342",
+    "category": "Headwear"
   },
   {
     "handle": "/collections/all/products/waf-lace-shirt-1",
@@ -165,7 +185,8 @@
     "price": "₦125,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/lacedetails1_",
     "imageExt": ".png",
-    "v": "1744126637"
+    "v": "1744126637",
+    "category": "Tops"
   },
   {
     "handle": "/collections/all/products/waf-lace-shirt",
@@ -173,7 +194,8 @@
     "price": "₦125,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/laceshirt4_",
     "imageExt": ".png",
-    "v": "1743682277"
+    "v": "1743682277",
+    "category": "Tops"
   },
   {
     "handle": "/collections/all/products/waf-khaki-blazer-1",
@@ -181,7 +203,8 @@
     "price": "₦225,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/suitjacket7_",
     "imageExt": ".png",
-    "v": "1744126406"
+    "v": "1744126406",
+    "category": "Outerwear"
   },
   {
     "handle": "/collections/all/products/waf-ejanla-hoodie-copy-1",
@@ -189,7 +212,8 @@
     "price": "₦350,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/coat1_",
     "imageExt": ".png",
-    "v": "1736158591"
+    "v": "1736158591",
+    "category": "Outerwear"
   },
   {
     "handle": "/collections/all/products/waf-khaki-blazer-pants-copy",
@@ -197,7 +221,8 @@
     "price": "₦224,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/brownsuitpants4_837f5562-489c-482e-b3fa-58ba5e851c04_",
     "imageExt": ".png",
-    "v": "1744127314"
+    "v": "1744127314",
+    "category": "Bottoms"
   },
   {
     "handle": "/collections/all/products/waf-khaki-blazer",
@@ -205,7 +230,8 @@
     "price": "₦225,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/suitjacket3_",
     "imageExt": ".png",
-    "v": "1743681166"
+    "v": "1743681166",
+    "category": "Outerwear"
   },
   {
     "handle": "/collections/all/products/waf-khaki-blazer-pants",
@@ -213,7 +239,8 @@
     "price": "₦224,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/suitdetails2_3dde6c36-3cfe-44c5-b925-e80a92958972_",
     "imageExt": ".png",
-    "v": "1744128184"
+    "v": "1744128184",
+    "category": "Bottoms"
   },
   {
     "handle": "/collections/all/products/waf-ade-coach-jacket",
@@ -221,7 +248,8 @@
     "price": "₦350,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/coat3_",
     "imageExt": ".png",
-    "v": "1736158536"
+    "v": "1736158536",
+    "category": "Outerwear"
   },
   {
     "handle": "/collections/all/products/waf-box-knits-shirts-copy",
@@ -229,7 +257,8 @@
     "price": "₦230,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/knit4_",
     "imageExt": ".png",
-    "v": "1736159235"
+    "v": "1736159235",
+    "category": "Tops"
   },
   {
     "handle": "/collections/all/products/waf-orisa-jersey-copy-2",
@@ -237,7 +266,8 @@
     "price": "₦230,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/knit2_",
     "imageExt": ".png",
-    "v": "1736159141"
+    "v": "1736159141",
+    "category": "Tops"
   },
   {
     "handle": "/collections/all/products/skater-boy-tee-1",
@@ -245,7 +275,8 @@
     "price": "₦32,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/3_88aaa2d3-678e-4275-b8e1-a88fe9cb2ad1_",
     "imageExt": ".png",
-    "v": "1711465054"
+    "v": "1711465054",
+    "category": "T-Shirts"
   },
   {
     "handle": "/collections/all/products/the-park-builder-tee",
@@ -253,7 +284,8 @@
     "price": "₦60,700",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/4_134a3658-c537-4010-82c7-44d4f14328fb_",
     "imageExt": ".png",
-    "v": "1711465153"
+    "v": "1711465153",
+    "category": "T-Shirts"
   },
   {
     "handle": "/collections/all/products/waf-soccer-jersey-copy",
@@ -261,7 +293,8 @@
     "price": "₦100,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/jerseydetails_",
     "imageExt": ".png",
-    "v": "1743678031"
+    "v": "1743678031",
+    "category": "Tops"
   },
   {
     "handle": "/collections/all/products/waf-woza-hockey-jersey-1",
@@ -269,7 +302,8 @@
     "price": "₦112,700",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/cokeyellowfabric_",
     "imageExt": ".png",
-    "v": "1723020417"
+    "v": "1723020417",
+    "category": "Tops"
   },
   {
     "handle": "/collections/all/products/waf-woza-hockey-jersey",
@@ -277,7 +311,8 @@
     "price": "₦112,700",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/cokewhitefabric_",
     "imageExt": ".png",
-    "v": "1723019845"
+    "v": "1723019845",
+    "category": "Tops"
   },
   {
     "handle": "/collections/all/products/basic-skorts-copy",
@@ -285,7 +320,8 @@
     "price": "₦66,700",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/skortdetail2_",
     "imageExt": ".png",
-    "v": "1743682703"
+    "v": "1743682703",
+    "category": "Bottoms"
   },
   {
     "handle": "/collections/all/products/basic-skorts-1",
@@ -293,7 +329,8 @@
     "price": "₦66,700",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/6_bddd10fc-036b-4e8d-a265-9bb2818604cc_",
     "imageExt": ".png",
-    "v": "1711029833"
+    "v": "1711029833",
+    "category": "Bottoms"
   },
   {
     "handle": "/collections/all/products/basic-skorts",
@@ -301,7 +338,8 @@
     "price": "₦66,700",
     "imageBase": "//www.wafflesncream.com/cdn/shop/products/image_e34bafe2-0052-4470-9b00-51c075ed3472_",
     "imageExt": ".png",
-    "v": "1680206806"
+    "v": "1680206806",
+    "category": "Bottoms"
   },
   {
     "handle": "/collections/all/products/patronne-crop-shirt",
@@ -309,7 +347,8 @@
     "price": "₦65,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/7_b3be055b-eba2-4b76-bcd0-83aeac74d525_",
     "imageExt": ".png",
-    "v": "1711368949"
+    "v": "1711368949",
+    "category": "Tops"
   },
   {
     "handle": "/collections/all/products/st-rita-crop-shirt",
@@ -317,7 +356,8 @@
     "price": "₦65,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/3_7b19c99f-9705-4bcd-8705-f1562e22bb84_",
     "imageExt": ".png",
-    "v": "1711368990"
+    "v": "1711368990",
+    "category": "Tops"
   },
   {
     "handle": "/collections/all/products/copy-of-copy-of-waf-dakotas-mocassin",
@@ -325,7 +365,8 @@
     "price": "₦150,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/image_e77ad135-5a40-43f6-872a-b92730279250_",
     "imageExt": ".png",
-    "v": "1684251900"
+    "v": "1684251900",
+    "category": "Accessories"
   },
   {
     "handle": "/collections/all/products/copy-of-waf-dakotas-mocassin-1",
@@ -333,7 +374,8 @@
     "price": "₦150,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/image_4218bf32-0eee-415a-83f7-ec71fb8a8089_",
     "imageExt": ".png",
-    "v": "1684252433"
+    "v": "1684252433",
+    "category": "Accessories"
   },
   {
     "handle": "/collections/all/products/copy-of-waf-dakotas-mocassin",
@@ -341,7 +383,8 @@
     "price": "₦150,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/image_4ab8277d-2b8b-43d0-b69e-94a837decf36_",
     "imageExt": ".png",
-    "v": "1684251853"
+    "v": "1684251853",
+    "category": "Accessories"
   },
   {
     "handle": "/collections/all/products/waf-dakotas-mocassin",
@@ -349,7 +392,8 @@
     "price": "₦150,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/image_7fa2bb7d-2361-4112-9b89-8359904fa287_",
     "imageExt": ".png",
-    "v": "1684251825"
+    "v": "1684251825",
+    "category": "Accessories"
   },
   {
     "handle": "/collections/all/products/lagos-island-bottoms-waves",
@@ -357,7 +401,8 @@
     "price": "₦93,700",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/wavesbrownside_",
     "imageExt": ".png",
-    "v": "1699380318"
+    "v": "1699380318",
+    "category": "Bottoms"
   },
   {
     "handle": "/collections/all/products/lagos-island-bottoms-waves-1",
@@ -365,7 +410,8 @@
     "price": "₦93,700",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/wavesredside_",
     "imageExt": ".png",
-    "v": "1699380298"
+    "v": "1699380298",
+    "category": "Bottoms"
   },
   {
     "handle": "/collections/all/products/waf-box-knits-shirts-copy-1",
@@ -373,7 +419,8 @@
     "price": "₦115,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/pants1_",
     "imageExt": ".png",
-    "v": "1737384781"
+    "v": "1737384781",
+    "category": "Bottoms"
   },
   {
     "handle": "/collections/all/products/waf-ejanla-sweatshorts-copy-1",
@@ -381,6 +428,7 @@
     "price": "₦200,000",
     "imageBase": "//www.wafflesncream.com/cdn/shop/files/jeans2_",
     "imageExt": ".png",
-    "v": "1736158790"
+    "v": "1736158790",
+    "category": "Bottoms"
   }
 ]

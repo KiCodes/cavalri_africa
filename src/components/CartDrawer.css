@@ -1,0 +1,153 @@
+.CartDrawer__Overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.CartDrawer__Overlay.is-open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.CartDrawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 90%;
+  max-width: 420px;
+  background: var(--color-bg);
+  display: flex;
+  flex-direction: column;
+  z-index: 101;
+  transform: translateX(100%);
+  transition: transform 0.35s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+.CartDrawer.is-open {
+  transform: translateX(0);
+}
+
+.CartDrawer__Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.CartDrawer__Title {
+  margin: 0;
+}
+
+.CartDrawer__Close svg {
+  width: 16px;
+  height: 14px;
+}
+
+.CartDrawer__ShippingNote {
+  padding: 14px 20px;
+  font-size: 12px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.CartDrawer__Items {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0 20px;
+}
+
+.CartDrawer__Empty {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.CartDrawer__Item {
+  display: flex;
+  gap: 16px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.CartDrawer__ItemImage.AspectRatio {
+  width: 90px;
+  flex-shrink: 0;
+  background: #f5f5f5;
+}
+
+.CartDrawer__ItemImage img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.CartDrawer__ItemInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.CartDrawer__ItemTitle {
+  margin: 0 0 6px;
+}
+
+.CartDrawer__ItemVariant {
+  margin: 0 0 6px;
+  text-transform: uppercase;
+}
+
+.CartDrawer__ItemPrice {
+  margin: 0 0 12px;
+}
+
+.CartDrawer__ItemFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.CartDrawer__Remove {
+  text-transform: uppercase;
+}
+
+.CartDrawer__Footer {
+  border-top: 1px solid var(--color-border);
+  padding: 18px 20px 24px;
+}
+
+.CartDrawer__Note {
+  margin-bottom: 16px;
+}
+
+.CartDrawer__NoteToggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.CartDrawer__NoteIcon {
+  display: inline-flex;
+  font-size: 16px;
+  line-height: 1;
+  transition: transform 0.2s ease-in-out;
+}
+
+.CartDrawer__NoteIcon.is-open {
+  transform: rotate(45deg);
+}
+
+.CartDrawer__NoteInput {
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.CartDrawer__ShippingText {
+  margin: 0 0 14px;
+}

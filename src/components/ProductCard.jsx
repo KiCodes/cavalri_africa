@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './ProductCard.css';
 
 function buildSrc(product, width) {
@@ -10,7 +11,7 @@ function ProductCard({ product }) {
   return (
     <div className="ProductItem">
       <div className="ProductItem__Wrapper">
-        <a href="#" className="ProductItem__ImageWrapper">
+        <Link to={product.handle} className="ProductItem__ImageWrapper">
           <div className="AspectRatio">
             <img
               className="ProductItem__Image"
@@ -20,10 +21,10 @@ function ProductCard({ product }) {
               loading="lazy"
             />
           </div>
-        </a>
+        </Link>
         <div className="ProductItem__Info">
           <h2 className="ProductItem__Title Heading u-h6">
-            <a href="#">{product.title}</a>
+            <Link to={product.handle}>{product.title}</Link>
           </h2>
           <div className="ProductItem__PriceList Heading u-h6">
             <span className="ProductItem__Price Text--subdued">{product.price}</span>

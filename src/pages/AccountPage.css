@@ -1,0 +1,101 @@
+.AccountPage {
+  padding: 40px 24px 80px;
+  max-width: 1000px;
+}
+
+.AccountPage__Logout {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 24px;
+}
+
+.AccountPage__Welcome {
+  margin: 10px 0 40px;
+}
+
+.AccountPage__Grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .AccountPage__Grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+  }
+}
+
+.AccountPage__SectionTitle {
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.AccountPage__Orders {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.AccountPage__Order {
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.AccountPage__OrderHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.AccountPage__OrderItems {
+  font-size: 13px;
+  color: var(--color-subdued);
+  margin-bottom: 8px;
+}
+
+.AccountPage__OrderItems li {
+  margin-bottom: 2px;
+}
+
+.AccountPage__OrderTotal {
+  font-size: 13px;
+  margin: 0;
+}
+
+.AccountPage__Address p {
+  margin: 0 0 4px;
+  font-size: 14px;
+}
+
+.AccountPage__EditButton {
+  display: inline-block;
+  width: auto;
+  margin-top: 20px;
+  padding: 12px 24px;
+}
+
+.AccountPage__Row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.AccountPage__AddressForm {
+  max-width: 380px;
+}
+
+.AccountPage__AddressFormActions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 12px;
+}
+
+.AccountPage__AddressFormActions .Button {
+  width: auto;
+  padding: 12px 24px;
+}

@@ -1,0 +1,79 @@
+.CollabDetail__Hero {
+  aspect-ratio: 16 / 9;
+}
+
+.CollabDetail__Hero img,
+.CollabDetail__Gallery .AspectRatio img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.CollabDetail__Bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 24px;
+  background: #1a1a1a;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.CollabDetail__NowReading {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.CollabDetail__Share {
+  display: none;
+  align-items: center;
+  gap: 14px;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .CollabDetail__Share {
+    display: flex;
+  }
+}
+
+.CollabDetail__Share svg {
+  width: 14px;
+  height: 14px;
+}
+
+.CollabDetail__Next {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.CollabDetail__Next svg {
+  width: 7px;
+  height: 12px;
+}
+
+.CollabDetail__Body {
+  max-width: 700px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.CollabDetail__Gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.CollabDetail__Gallery .AspectRatio {
+  aspect-ratio: 4 / 3;
+}
